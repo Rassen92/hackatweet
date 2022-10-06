@@ -1,3 +1,9 @@
+.body {
+  display: flex;
+  background-Color: #1d3247;
+  color: white;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -7,9 +13,21 @@
   padding: 4rem 0;
 }
 
+.leftcontainer{
+  width: 40vw;
+  height: 100vh;
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+  background-size: 1000px;
+
+  
+  
+ 
+}
+
 .title {
   line-height: 1.15;
   font-size: 4rem;
+  color: black;
 }
 
 .title a {
