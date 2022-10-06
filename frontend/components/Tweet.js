@@ -3,7 +3,7 @@ import styles from "../styles/Tweet.module.css";
 function Tweet() {
   return (
     <div className={styles.container}>
-      <span className={styles.home}>Home</span>
+      <h1 className={styles.home}>Home</h1>
       <div className={styles.inputContainer}>
         <input
           className={styles.input}
