@@ -14,7 +14,7 @@
   grid-row-end: -1;
   grid-column-start: 1;
   grid-column-end: 4;
-  background-color: #1d3247;
+  border-right: 1px solid grey;
 }
 
 .tweetContainer {
@@ -23,7 +23,7 @@
   grid-row-end: 5;
   grid-column-start: 4;
   grid-column-end: 11;
-  background-color: #0f67c0;
+  border-right: 1px solid grey;
 }
 
 .lastTweetsContainer {
@@ -32,7 +32,7 @@
   grid-row-end: -1;
   grid-column-start: 4;
   grid-column-end: 11;
-  background-color: #2bab67;
+  border-right: 1px solid grey;
 }
 
 .trendsContainer {
