@@ -112,8 +112,8 @@ onChange={(e) => setSignInPassword(e.target.value)} value={signInPassword} />
           <button className={styles.signup}> Sign Up</button>
           
         </div>
-        <div>
-     
+        </div>
+        </div>
     
   );
 }
