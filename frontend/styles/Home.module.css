@@ -18,12 +18,26 @@
   height: 100vh;
     background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
   background-size: 1000px;
-
-  
-  
- 
 }
 
+.signIn{
+  
+  height: 30px;
+  width: 150px;
+  border-radius: 50px;
+  background-color: #55b3f6;
+  color: blanchedalmond;
+  }
+  .signUp{
+  background-color: #1d3247;
+    height: 30px;
+    width: 150px;
+    border-radius: 50px;
+    border-color: white;
+    color: #55b3f6;
+    
+
+    }
 .title {
   line-height: 1.15;
   font-size: 4rem;

@@ -15,9 +15,9 @@ function Home() {
          <h2 className={styles.subtitle}>
           Join Hackatweet today.
          </h2>
-         <button id="signIn"> signIn</button>
+         <button className={styles.signIn} > Sign In</button>
          <h3>Already have an account?</h3>
-         <button id="signUp"> signUp</button>
+         <button className={styles.signUp}> Sign Up</button>
         
       
         </div>
