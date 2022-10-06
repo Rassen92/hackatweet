@@ -16,7 +16,7 @@ function Hub() {
       <div className={styles.lastTweetsContainer}>
         <LastTweets />
       </div>
-      <div className={styles.Trendscontainer}>
+      <div className={styles.trendsContainer}>
         <Trends />
       </div>
     </div>
