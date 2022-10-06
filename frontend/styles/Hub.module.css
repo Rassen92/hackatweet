@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1d3247;
+  color: white;
+  grid-template-rows: repeat(14, 1fr);
+  grid-template-columns: repeat(14, 1fr);
+}
+
+.userContainer {
+  display: flex;
+  grid-row-start: 1;
+  grid-row-end: -1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: #1d3247;
+}
+
+.tweetContainer {
+  display: flex;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 11;
+  background-color: #0f67c0;
+}
+
+.lastTweetsContainer {
+  display: flex;
+  grid-row-start: 5;
+  grid-row-end: -1;
+  grid-column-start: 4;
+  grid-column-end: 11;
+  background-color: #2bab67;
+}
+
+.trendsContainer {
+  display: flex;
+  grid-row-start: 1;
+  grid-row-end: -1;
+  grid-column-start: 11;
+  grid-column-end: -1;
+}
