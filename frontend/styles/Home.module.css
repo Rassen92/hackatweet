@@ -3,6 +3,21 @@
   background-Color: #1d3247;
   color: white;
 }
+.logoLeft{
+  display: flex;
+  transform : rotate(180deg);
+  margin-left: 240px;
+  margin-top: 360px;
+   justify-content: center;
+    height: 260px;
+}
+.logoRight{
+  margin-top: -230px;
+  display: flex;
+  transform : rotate(180deg);
+   justify-content: center;
+    height: 40px;
+}
 
 .main {
   display: flex;
@@ -25,6 +40,10 @@
   margin-left: 30px;
   margin-top: 250px;
   
+
+}
+
+.register{
 
 }
 .signin{
@@ -53,16 +72,20 @@
   cursor: pointer;
 }
 .title {
+  margin-top: 250px;
   line-height: 1.15;
-  font-size: 4rem;
-  color: black;
+  font-size: 5rem;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .title a {
   color: #0070f3;
   text-decoration: none;
+
 }
 
 .title a:hover, .title a:focus, .title a:active {
   text-decoration: underline;
 }
+

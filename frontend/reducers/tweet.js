@@ -1,19 +1,21 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
- value: [],
+  value: [],
 };
 export const tweetSlice = createSlice({
- name: 'tweet',
+  name: "tweet",
   initialState,
- reducers: {
-   addTweet: (state, action) => {
-     state.value.push(action.payload);
-   },
-   removeTweet: (state, action) => {
-    state.value = state.value.filter(tweet => tweet.text !== action.payload.text);
-},
- },
+  reducers: {
+    addTweet: (state, action) => {
+      state.value.push(action.payload);
+    },
+    removeTweet: (state, action) => {
+      state.value = state.value.filter(
+        (tweet) => tweet.text !== action.payload.text
+      );
+    },
+  },
 });
 
 export const { addTweet, removeTweet } = tweetSlice.actions;
