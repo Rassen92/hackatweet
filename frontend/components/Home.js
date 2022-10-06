@@ -7,17 +7,20 @@ function Home() {
     <div>
       <div className = {styles.body}> 
       <div className={styles.leftcontainer}> 
+      <img  src='../public/logo.png'  />
       </div>
       <div className={styles.rightcontainer}>
+        
          <h1 className={styles.title}>
-          See what's happening
+          See what's <br /> happening
          </h1>
          <h2 className={styles.subtitle}>
           Join Hackatweet today.
          </h2>
-         <button className={styles.signIn} > Sign In</button>
-         <h3>Already have an account?</h3>
-         <button className={styles.signUp}> Sign Up</button>
+         <img src='../public/logo.png' />
+         <button className={styles.signin}> Sign In</button>
+         <h4>Already have an account?</h4>
+         <button className={styles.signup}> Sign Up</button>
         
       
         </div>
@@ -27,3 +30,4 @@ function Home() {
 }
 
 export default Home;
+
