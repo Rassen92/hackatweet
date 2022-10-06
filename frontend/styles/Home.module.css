@@ -1,3 +1,9 @@
+.body {
+  display: flex;
+  background-Color: #1d3247;
+  color: white;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -7,9 +13,49 @@
   padding: 4rem 0;
 }
 
+.leftcontainer{
+  width: 40vw;
+  height: 100vh;
+    background-image: url("https://abs.twimg.com/sticky/illustrations/lohp_1302x955.png");
+  background-size: 1000px;
+
+}
+
+.rightcontainer{
+  margin-left: 30px;
+  margin-top: 250px;
+  
+
+}
+.signin{
+  
+  display: block;
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  border-color: white;
+   background-color: #3aa3ee;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.signup{
+  display: block;
+  width: 150px;
+  height: 30px;
+  border-radius: 30px;
+  border-color: white;
+   background-color: #1d3247;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
 .title {
   line-height: 1.15;
   font-size: 4rem;
+  color: black;
 }
 
 .title a {

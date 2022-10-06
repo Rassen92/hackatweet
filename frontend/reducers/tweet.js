@@ -3,8 +3,8 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
  value: [],
 };
-export const tweetsSlice = createSlice({
- name: 'tweets',
+export const tweetSlice = createSlice({
+ name: 'tweet',
   initialState,
  reducers: {
    addTweet: (state, action) => {
@@ -16,5 +16,5 @@ export const tweetsSlice = createSlice({
  },
 });
 
-export const { addTweet, removeTweet } = tweetsSlice.actions;
-export default tweetsSlice.reducer;
+export const { addTweet, removeTweet } = tweetSlice.actions;
+export default tweetSlice.reducer;
